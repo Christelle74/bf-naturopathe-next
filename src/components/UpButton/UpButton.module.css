@@ -1,0 +1,17 @@
+.upButton{
+    position: fixed; 
+    width: 2.3rem;
+    right: 5rem;
+    bottom: 2rem;
+    height: 2.3rem;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    color: #9ac2ba;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50px;
+}
+.upButton:hover{
+    border-color: #E2C163;
+}
