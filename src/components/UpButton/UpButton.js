@@ -25,9 +25,9 @@ export default function UpButton() {
         });
     };
     
-    
+    if (typeof window !== "undefined"){
     window.addEventListener('scroll', toggleVisible);
-    
+    }
     return (
         <button className={styles.upButton}>
             <FaArrowCircleUp onClick={scrollToTop} 
