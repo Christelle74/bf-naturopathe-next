@@ -8,7 +8,7 @@ export default function Contact() {
                 <h2>Contactez-moi</h2>
                 <p>Béatrice Fabry</p>
                 <p>7 rue de Cerdagne - 66000 PERPIGNAN</p>
-                <p>Téléphone : 06 14 33 03 48</p>
+                <p>Téléphone : <a href="tel:0614330348">06 14 33 03 48</a></p>
                 <p>Mail : <a href="mailto:fabry.beatrice@orange.fr">fabry.beatrice@orange.fr</a></p>
             </div>
             <div data-aos='zoom-in' data-aos-easing="linear" data-aos-duration="1000">

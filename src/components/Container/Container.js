@@ -1,12 +1,12 @@
 import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+import Navigation from "../Navigation/Navigation";
 
 
 
 export default function Container(props) {
     return (
         <>
-            <Header/>
+            <Navigation/>
             {props.children}
             <Footer/>
         </>
