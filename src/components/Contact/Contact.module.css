@@ -1,0 +1,23 @@
+
+.contact article{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.contact a:hover {
+    color:blue;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 390px){
+
+    .contact article {
+        width: 80%;
+       min-height: 50vh;
+    }
+    
+}

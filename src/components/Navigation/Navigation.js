@@ -14,11 +14,10 @@ export default function Navigation() {
         setCurrentLink(index)
         setNavActive(false)
     }
-
+    
     
     return (
         <header>
-            
             <nav className="nav">
                 <Logo/>
                 <div className={`${navActive ? "navActive" : ""} menu`}>
@@ -26,7 +25,7 @@ export default function Navigation() {
                         <li
                             key={index}
                             onClick={()=> handleActiveLink()}
-                            className={currentLink === index && "active"}
+                            className={currentLink === index ? "active" : ""}
                         >
                             <a href={'#'+link}>{link}</a>
                         </li>
@@ -34,9 +33,9 @@ export default function Navigation() {
                 </div>
                 <div className={"hamburger"} onClick={()=>setNavActive(!navActive)}>
                     {navActive ? (
-                        <Image src={close} width={36} height={36} alt="close"/>
+                        <Image src={close}  alt="close"/>
                         ) : (
-                        <Image src={hamburger} width={36} height={36} alt="hamburger"/>
+                        <Image src={hamburger}  alt="open menu"/>
                         )
                     }
                 </div>

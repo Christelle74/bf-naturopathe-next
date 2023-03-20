@@ -1,0 +1,21 @@
+.massage{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.divMassage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+
+.divMassage img{
+    max-width: 12rem;
+    height: auto;
+    border-radius: 10%;
+    object-fit: cover;
+}

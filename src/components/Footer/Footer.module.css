@@ -17,3 +17,13 @@
 .cp{
     font-size: 12px;
 }
+
+@media screen and (max-width: 390px){
+    .bf{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cp{
+        font-size: 8px;
+    }
+}

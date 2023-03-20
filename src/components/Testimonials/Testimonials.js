@@ -1,54 +1,40 @@
-import React, {useState} from 'react';
-// import IconNext from '../../../public/assets/next-icon.svg';
-// import IconPrev from '../../../public/assets/previous-icon.svg';
-// import data from '../../../public/data.js';
-// import Image from 'next/image.js';
+import card1 from '../../../public/assets/seyedeh-hamideh-kazemi-g50hO8_M-Fs-unsplash.jpg'
+import card2 from '../../../public/assets/seyedeh-hamideh-kazemi-g50hO8_M-Fs-unsplash.jpg'
+import Image from 'next/image.js';
+import { FaStar } from 'react-icons/fa';
 import styles from './Testimonials.module.css'
 
 
 
 export default function Testimonials() {
-    const [index, setIndex] = useState(0);
-
-    const handleClickPrev = () => {
-        if (index === 0) return setIndex(data.length - 1);
-        setIndex(index - 1);
-    }
-
-    const handleClickNext = () => {
-        if(index === data.length - 1) return setIndex(0);
-        setIndex(index + 1);
-    }
+    
 
     return (
         <section id="Avis" >
-            <div data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" className={styles.testimonials}>
+            <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" className={styles.testimonials}>
                 <h2>Vos avis</h2>
-                {/* <div className={styles.slider}>
-                    <div className={styles.sliderImages}>
-                        {/* <div className={styles.imageWrapper}>
-                            <Image width={100} height={200} src={`/public/${data[index].picture}`} /> 
-                        </div> 
+                <div className={styles.testimonialContainer}>
+                    <div className={styles.testimonialCard +" "+ styles.card1}>
+                        <Image src={card1}  alt=""/>
+                        <p className={styles.name}>Françoise T.</p>
+                        <p>Je recommande l expertise de Madame Fabry qui est très à l écoute mais qui donne les bonnes indications pour régler des problèmes de santé chronique.</p>
+                        <p className={styles.date}>Visité en août 2019</p>
+                        <div className={styles.star}>
+                            <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
+                        </div>
                     </div>
-                    <div className={styles.sliderButtons}>
-                        <button onClick={() => handleClickPrev()}>
-                            <IconPrev />
-                        </button>
-                        <button onClick={() => handleClickNext()}>
-                            <IconNext />
-                        </button> 
+                
+                    <div className={styles.testimonialCard +" "+ styles.card1}>
+                        <Image src={card2}  alt=""/>
+                        <p className={styles.name}>Christelle P.</p>
+                        <p>Béatrice est une nathuropathe très avenante, souriante et à l'écoute de son patient. Elle est très professionnel ! Je la recommande vivement.</p>
+                        <p className={styles.date}>Visité en novembre 2022</p>
+                        <div className={styles.star}>
+                            <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.testimonial}>
-                     <p className={styles.testimonialContent}>
-                        “ {`${data[index].testimonial}`} ”
-                    </p>
-                    <div className={styles.testimonialAuthor}>
-                        <p className={styles.testimonialAuthorName}>{`${data[index].name}`}</p>
-                        <p className={styles.testimonialAuthorJob}>{`${data[index].job}`}</p>
-                    </div> 
-                </div>  */}
-            </div>
+            </article>
             
         </section>
     )
