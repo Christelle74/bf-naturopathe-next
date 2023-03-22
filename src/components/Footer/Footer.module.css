@@ -18,9 +18,20 @@
     font-size: 12px;
 }
 
-@media screen and (max-width: 390px){
+
+@media screen and (max-width: 768px){
     .bf{
         font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cp{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .bf{
+        font-size: 10px;
         margin-bottom: 10px;
     }
     .cp{
