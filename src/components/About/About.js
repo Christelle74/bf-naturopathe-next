@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img1 from '../../../public/assets/Doux hiver.jpg'
+import img1 from '../../../public/assets/Doux hiver.webp'
 
 
 
@@ -25,7 +25,7 @@ export default function About() {
                         
             </article>
             <article data-aos='flip-left'data-aos-easing="linear" data-aos-duration="1000">
-                <Image  src={img1}  alt="Beatrice Fabry, naturopathe" sizes='100vw' placeholder='blur'/>
+                <Image  src={img1}  alt="Beatrice Fabry, naturopathe, physionutritionniste, bioresonance, massage Amma" sizes='100vw' placeholder='blur'/>
                 
                 <ul>
                     <li>Diplômée de Physionutrition (IEPP 2017)</li>

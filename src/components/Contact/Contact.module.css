@@ -1,11 +1,18 @@
 
 .contact article{
-    width: 30%;
+    width: 28%;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.contact p{
+    padding: 5px 10px;
+}
 .contact a:hover {
-    color:blue;
+    color:#2e5f6f;
     font-size: 18px;
     font-weight: 700;
     text-decoration: underline;
@@ -13,11 +20,25 @@
 
 
 
+
+@media screen and (max-width: 768px){
+    .contact{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .contact article, .map{
+        width: 80%;
+        min-height: 50vh;
+        
+    }
+}
+
 @media screen and (max-width: 390px){
 
     .contact article {
         width: 80%;
-       min-height: 50vh;
+        min-height: 50vh;
     }
     
 }

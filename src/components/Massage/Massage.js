@@ -21,15 +21,15 @@ export default function Massage() {
                     <br /><br />
                     J’ai rajouté le massage et l’accupression des jambes qui le rend plus complet ! </p>
                     <div className={styles.massage}>
-                        <Image  src={img2}  alt="Beatrice Fabry, naturopathe"  sizes='100vw' placeholder='blur'/>
+                        <Image  src={img2}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
                     </div>
             </article>
             
             <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" className={styles.divMassage}>
-                <Image  src={img5}  alt="Beatrice Fabry, naturopathe"  sizes='100vw' placeholder='blur'/>
-                <Image   src={img4}  alt="Beatrice Fabry, naturopathe"  sizes='100vw' placeholder='blur'/>
-                <Image   src={img3}  alt="Beatrice Fabry, naturopathe"  sizes='100vw' placeholder='blur'/>
-                <Image   src={img1}  alt="Beatrice Fabry, naturopathe"  sizes='100vw' placeholder='blur'/>
+                <Image  src={img5}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
+                <Image   src={img4}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
+                <Image   src={img3}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
+                <Image   src={img1}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
             </article>
 
         </section>

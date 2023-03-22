@@ -1,10 +1,12 @@
 .testimonials{
-  width: 100%;
+  width: 95%;
 }
 
 .testimonialContainer{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
   width: 90%;
   margin: auto;
@@ -14,7 +16,7 @@
 .testimonialCard{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 20rem;
   padding: 1.5rem;
   border-bottom-right-radius: 100px;
   border-top-left-radius: 100px;
@@ -35,6 +37,7 @@
 .name{
   font-size: 18px;
   font-weight: 700;
+  padding-left: 0.6rem;
 }
 
 .date{
@@ -45,3 +48,58 @@
 }
 
 
+
+@media screen and (max-width: 992px){
+  .testimonialContainer{
+    gap: 20px;
+  }
+  .testimonialCard{
+    width: 18rem;
+    padding: 1rem;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+  }
+  .testimonialCard img{
+    width: 80px;
+    height: 80px;
+  }
+  .name{
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+
+
+@media screen and (max-width: 768px){
+  .testimonials{
+    width: 80%;
+  }
+  .testimonialContainer{
+    gap: 20px;
+  }
+  
+  .testimonialCard img{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .name{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .date{
+    font-size: 10px;
+  }
+  .star{
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .testimonials{
+    width: 80%;
+  }
+  
+}

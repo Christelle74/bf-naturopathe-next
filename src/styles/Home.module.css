@@ -1,7 +1,7 @@
 
 .presentation  a{
     position: relative;
-    margin: 30px 0;
+    margin: 30px auto;
     padding: 10px;
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(255,254,223,1) 13%, rgba(255,195,88,1) 45%, rgba(237,127,1,1) 78%);

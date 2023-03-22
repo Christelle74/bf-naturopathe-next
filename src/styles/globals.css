@@ -19,8 +19,8 @@
 
 *{
     scroll-behavior: smooth;
-    overflow-y:scroll;
-    scrollbar-width: 5px;
+    /* overflow-y:scroll;
+    scrollbar-width: 5px; */
     -ms-overflow-style: none; 
     text-decoration: none;
     list-style: none;
@@ -70,6 +70,7 @@ header{
     height: 6.5rem;
     background-color: rgb(45, 45, 45);
     position: fixed; 
+    top: 0;
     width: 100vw;
     z-index: 1;
 }
@@ -82,27 +83,23 @@ section{
     margin: 20px 0;
     width: 90%;
     height: 100%;
+    min-height: 500px;
     font-style:normal;
     scroll-snap-type: y proximity;
 } 
 
 section h1{
     font-size:30px;
-    margin-bottom:40px;
+    margin:30px auto;
 }
 
 section h2{
     display: flex;
     align-items:  center;
     font-size:26px;
-    margin: 10px;
     padding: 20px;
 }
 
-section h3{
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
 
 
@@ -112,7 +109,7 @@ article{
     border:2px solid #E2C163;
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     padding: 20px;
     background-color: #f0e7d6;
@@ -122,12 +119,8 @@ article{
 p{
     margin-bottom: 10px;
     padding: 10px;
-    text-align:justify;
+    /* text-align:justify; */
     line-height: 1.4;
-}
-
-ul{
-    margin-top: 30px;
 }
 
 ul li{
@@ -138,9 +131,6 @@ ul li{
     align-items: center;
 }
 
-.tarifs{
-    width: 100%;
-}
 
 article iframe{
     position: absolute;
@@ -152,7 +142,7 @@ article iframe{
 
 img{
     display: flex;
-    width: 100%;
+    width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 5%;
@@ -165,24 +155,23 @@ img{
 /*............. système navbar active + hamburger ................ */
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     position: fixed;
-
+    font-size: 14px;
 }
 
-.menu {
+.menu ul{
     display: flex; 
-    
 }
 
 .menu.navActive{
     right: 0;
 }
 .menu li{
-    padding: 8px;
     margin-right: 0.5rem;
+    font-weight: 400;
 }
 
 .menu a{
@@ -229,11 +218,64 @@ img{
 
 @media screen and (max-width: 1024px){
     
+    section h1{
+        font-size:25px;
+    }
+    
+    section h2{
+        font-size:20px;
+    }
+
+    section h3{
+        font-size:16px;
+    }
+
+    p, ul{
+        font-size: 14px;
+        margin-bottom: 8px;
+        padding: 8px;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    
+    .menu{
+        position:fixed;
+        top: 100px;
+        width: 400px;
+        right: -400px; 
+        padding: 24px 16px;
+        font-size: 18px;
+        min-height:calc(100vh - 60px);
+        background-color: rgb(45, 45, 45);
+        transition: all 0.3s;
+        opacity: 0.9;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger img{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    
     .menu{
         flex-direction: column;
         align-items: center;
         position:fixed;
-        top: 120px;
+        top: 100px;
         width: 400px;
         row-gap: 24px;
         right: -400px; 
@@ -247,25 +289,27 @@ img{
     .hamburger{
         display: block;
     }
-    
-    section h1{
-        font-size:25px;
-    }
-    
-    section h2{
-        font-size:20px;
+
+    .hamburger img{
+        width: 80%;
     }
 
-    section h3{
-        font-size:16px;
+    img{
+        width: 200px;
     }
 
-    p{
-        font-size: 14px;
-        margin-bottom: 8px;
-        padding: 8px;
+    section{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto;
     }
+    article, .tarifs{
+        width: 80%;
+    }
+    
 }
+
 
 @media screen and (max-width: 390px){
         
@@ -305,5 +349,9 @@ img{
     }
     ul{
         font-size: 12px;
+    }
+
+    img{
+        width: 150px;
     }
 }

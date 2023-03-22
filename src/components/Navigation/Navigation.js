@@ -21,15 +21,17 @@ export default function Navigation() {
             <nav className="nav">
                 <Logo/>
                 <div className={`${navActive ? "navActive" : ""} menu`}>
-                    {links.map((link, index)=>(
-                        <li
-                            key={index}
-                            onClick={()=> handleActiveLink()}
-                            className={currentLink === index ? "active" : ""}
-                        >
-                            <a href={'#'+link}>{link}</a>
-                        </li>
-                    ))}
+                    <ul>
+                        {links.map((link, index)=>(
+                            <li
+                                key={index}
+                                onClick={()=> handleActiveLink()}
+                                className={currentLink === index ? "active" : ""}
+                            >
+                                <a href={'#'+link}>{link}</a>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
                 <div className={"hamburger"} onClick={()=>setNavActive(!navActive)}>
                     {navActive ? (

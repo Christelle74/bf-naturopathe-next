@@ -1,5 +1,6 @@
 import Image from "next/image"
 import rayonex from '../../../public/assets/rayonex.jpg'
+import styles from './Bioresonance.module.css'
 
 export default function Bioresonance() {
     return (
@@ -21,14 +22,12 @@ export default function Bioresonance() {
                     A l'aide de la biorésonance, des fréquences sont émises et testées. En utilisant des détecteurs, on teste les déséquilibres organiques que l'on rééquilibre  grâce aux fréquences.
                     <br /><br />
                     Cet appareil, développé selon les travaux du Dr Paul Schmidt par la société RAYONEX, est déjà utilisé par les allemands depuis 1982 et fait l'objet de constantes évolutions.
-                    <br /><br />
-                    Exemples de nombreuses applications du Rayonex : recherche des allergies alimentaires, métaux lourds, recherche des carences en oligo-éléments et vitamines, rééquilibrage et ré-harmonisation  des déséquilibres trouvés. Soulagement des douleurs tendineuses, arthrosiques..
-                    <br /><br />
-                    Une étude allemande récente (2019), en double aveugle sur 54 patients (17 hommes, 37 femmes de 27 à 84 ans), présentant des douleurs du rachis cervicale a montré une amélioration significative des symptômes douloureux sans aucun effet indésirable, après 12 séances de rayonex. 
-                </p>
+                    </p>
             </article>
             <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" >
-                <Image src={rayonex}  alt="Beatrice Fabry, naturopathe, bioresonance, rayonex" layout='responsive' sizes='100vw' placeholder='blur'/>
+                <div className={styles.bioresonance}>
+                    <Image src={rayonex}  alt="Beatrice Fabry, naturopathe, bioresonance, rayonex"  sizes='100vw' placeholder='blur'/>
+                </div>
                 <p>
                     <br /><br />
                     Exemples de nombreuses applications du Rayonex : recherche des allergies alimentaires, métaux lourds, recherche des carences en oligo-éléments et vitamines, rééquilibrage et ré-harmonisation  des déséquilibres trouvés. Soulagement des douleurs tendineuses, arthrosiques..

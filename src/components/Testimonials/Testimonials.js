@@ -16,7 +16,7 @@ export default function Testimonials() {
                 <div className={styles.testimonialContainer}>
                     <div className={styles.testimonialCard +" "+ styles.card1}>
                         <Image src={card1}  alt=""/>
-                        <p className={styles.name}>Françoise T.</p>
+                        <h3 className={styles.name}>Françoise T.</h3>
                         <p>Je recommande l expertise de Madame Fabry qui est très à l écoute mais qui donne les bonnes indications pour régler des problèmes de santé chronique.</p>
                         <p className={styles.date}>Visité en août 2019</p>
                         <div className={styles.star}>
@@ -26,7 +26,7 @@ export default function Testimonials() {
                 
                     <div className={styles.testimonialCard +" "+ styles.card1}>
                         <Image src={card2}  alt=""/>
-                        <p className={styles.name}>Christelle P.</p>
+                        <h3 className={styles.name}>Christelle P.</h3>
                         <p>Béatrice est une nathuropathe très avenante, souriante et à l'écoute de son patient. Elle est très professionnel ! Je la recommande vivement.</p>
                         <p className={styles.date}>Visité en novembre 2022</p>
                         <div className={styles.star}>

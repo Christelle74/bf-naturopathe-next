@@ -42,7 +42,7 @@ export default function Home() {
                   <p>
                       Massage Amma
                   </p>
-                  <a href = '#Contact'>Contactez-moi</a>
+                  <a href = '#Contact' aria-label='contactez-moi'>Contactez-moi</a>
               </article>
           </section>
           <About/>

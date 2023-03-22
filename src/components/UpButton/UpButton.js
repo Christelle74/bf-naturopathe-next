@@ -29,7 +29,7 @@ export default function UpButton() {
     window.addEventListener('scroll', toggleVisible);
     }
     return (
-        <button className={styles.upButton}>
+        <button aria-label='remonter en haut du site Béatrice Fabry' className={styles.upButton}>
             <FaArrowCircleUp onClick={scrollToTop} 
             style={{display: visible ? 'inline' : 'none'}} />
         </button>
