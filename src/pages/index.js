@@ -30,18 +30,15 @@ export default function Home() {
               </article>
               <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" className={styles.presentation}>
                   <h1>Béatrice FABRY</h1>
-                  <p>
-                      Naturopathe
-                  </p>
-                  <p>
-                      Thérapeute en biorésonance
-                  </p>
-                  <p>
-                      Physionutritionniste diplômée IEPP
-                  </p>
-                  <p>
-                      Massage Amma
-                  </p>
+                  <ul>
+                    <li>Naturopathe</li>
+                    <li>Thérapeute en biorésonance</li>
+                    <li>Physionutritionniste diplômée IEPP</li>
+                    <li>Massage Amma</li>
+                    <li>Massages pour personnes âgées</li>
+                    <li>Massages assis pour entreprises</li>
+                  </ul>
+                  
                   <a href = '#Contact' aria-label='contactez-moi'>Contactez-moi</a>
               </article>
           </section>

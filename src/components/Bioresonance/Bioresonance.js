@@ -1,5 +1,7 @@
 import Image from "next/image"
-import rayonex from '../../../public/assets/rayonex.jpg'
+import rayonex from '../../../public/assets/rayonex.webp'
+import rayonex1 from '../../../public/assets/rayonex1.webp'
+import rayonex2 from '../../../public/assets/rayonex2.webp'
 import styles from './Bioresonance.module.css'
 
 export default function Bioresonance() {
@@ -22,7 +24,11 @@ export default function Bioresonance() {
                     A l'aide de la biorésonance, des fréquences sont émises et testées. En utilisant des détecteurs, on teste les déséquilibres organiques que l'on rééquilibre  grâce aux fréquences.
                     <br /><br />
                     Cet appareil, développé selon les travaux du Dr Paul Schmidt par la société RAYONEX, est déjà utilisé par les allemands depuis 1982 et fait l'objet de constantes évolutions.
-                    </p>
+                </p>
+                <div className={styles.bioresonance}>
+                    <Image src={rayonex1}  alt="Beatrice Fabry, naturopathe, bioresonance, rayonex"  sizes='50vw' placeholder='blur'/>
+                    <Image src={rayonex2}  alt="Beatrice Fabry, naturopathe, bioresonance, rayonex"  sizes='50vw' placeholder='blur'/>
+                </div>
             </article>
             <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" >
                 <div className={styles.bioresonance}>

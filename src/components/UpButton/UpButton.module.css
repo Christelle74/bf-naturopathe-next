@@ -4,13 +4,13 @@
     right: 5rem;
     bottom: 2rem;
     height: 2.3rem;
-    font-size: 2rem;
+    font-size: var(--fs-40);
     z-index: 1;
     cursor: pointer;
-    color: #9ac2ba;
+    color: var(--color1);
     background-color: transparent;
     border-color: transparent;
-    border-radius: 50px;
+    border-radius: var(--border-radius-50);
 }
 
 

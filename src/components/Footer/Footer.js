@@ -11,7 +11,7 @@ export default function Footer() {
                 </p>
                 
                 <p className={styles.cp}>
-                Créé par Christelle - 2023 - https://www.christelle-philippe.com
+                Créé par Christelle - 2023 - <a href="https://www.christelle-philippe.com">https://www.christelle-philippe.com</a>
                 </p>
             
         </div>

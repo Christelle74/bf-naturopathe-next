@@ -28,9 +28,10 @@ export default function About() {
                 <Image  src={img1}  alt="Beatrice Fabry, naturopathe, physionutritionniste, bioresonance, massage Amma" sizes='100vw' placeholder='blur'/>
                 
                 <ul>
-                    <li>Diplômée de Physionutrition (IEPP 2017)</li>
+                    <li>Diplômée en nathuropathie (CENA - Robert Masson - 2005)</li>
+                    <li>Diplômée en Physionutrition (IEPP 2017)</li>
                     <li>Certificat de Thérapeute en biorésonance (certification allemande 2018)</li>
-                    <li>Diplômée de Massage AMMA sur chaise (shiatsu sur chaise ) (Ecole AZENDAY - Toulouse 2019)</li>
+                    <li>Diplômée en Massage AMMA sur chaise (shiatsu sur chaise ) (Ecole AZENDAY - Toulouse 2019)</li>
                 </ul>
                 
             </article>
