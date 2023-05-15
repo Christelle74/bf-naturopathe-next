@@ -6,7 +6,7 @@ import close from '../../../public/assets/close.svg'
 
 
 export default function Navigation() {
-    const links = ["Accueil", "A propos de moi", "Naturopathie", "Biorésonance", "Physionutrition", "Massage Amma", "Tarifs", "Contact", "Avis"]
+    const links = ["Accueil", "Mon Parcours", "Naturopathie", "Biorésonance", "Physionutrition", "Massage Amma", "Tarifs", "Contact", "Avis"]
     const [currentLink, setCurrentLink]=useState(0);
     const [navActive, setNavActive]=useState(false);
 

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img1 from '../../../public/assets/Doux hiver.webp'
+import img1 from '../../../public/assets/20a516517a0dce1493c94fb53554b8fc.jpg'
 
 
 export default function Physionutrition() {
@@ -30,7 +30,7 @@ export default function Physionutrition() {
                     Cette analyse a montré que 70 %  de la population avait des apports nutritionnels inférieurs à 2/3 des apports recommandés. 
                     <br /><br />
                     Ces personnes avaient pourtant une alimentation plutôt équilibrée. 
-                    La pauvreté naturelle des sols, leur lessivage, le raffinage des céréales, les pesticides, la pasteurisation, la stérélisation, la ionisation, les cuissons haute température, la conservation et les traitements, font que les aliments ont une faible densité nutritionnelle.
+                    La pauvreté naturelle des sols, leur lessivage, le raffinage des céréales, les pesticides, la pasteurisation, la stérilisation, la ionisation, les cuissons haute température, la conservation et les traitements, font que les aliments ont une faible densité nutritionnelle.
                     <br /><br />
                     Une alimentation diversifiée ne suffit donc plus à couvrir les besoins micronutritionnels. La micro nutrition devient dès lors indispensable ! 
                 </p>

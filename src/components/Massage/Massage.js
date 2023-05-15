@@ -19,7 +19,13 @@ export default function Massage() {
                     <br /><br />
                     Il inclut massage et accupressure du dos, du crâne, des bras et des mains. 
                     <br /><br />
-                    J’ai rajouté le massage et l’accupression des jambes qui le rend plus complet ! </p>
+                    J’ai rajouté le massage et l’accupression des jambes qui le rend plus complet ! 
+                    <br /><br /><br />
+                    J'interviens dans plusieurs entreprises dont le CSE prend en charge tout ou partie du prix du massage. 
+                    <br />
+                    J'interviens également en centre de vacances.
+                </p>
+
                     <div className={styles.massage}>
                         <Image  src={img2}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
                     </div>
@@ -27,10 +33,10 @@ export default function Massage() {
             
             <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000">
                 <div className={styles.gallery}>
-                    <Image  src={img5}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
-                    <Image   src={img4}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
-                    <Image   src={img3}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
-                    <Image   src={img1}  alt="Beatrice Fabry, massage Amma"  sizes='100vw' placeholder='blur'/>
+                    <Image  src={img5}  alt="Beatrice Fabry, massage Amma"   placeholder='blur'/>
+                    <Image   src={img4}  alt="Beatrice Fabry, massage Amma"  placeholder='blur'/>
+                    <Image   src={img3}  alt="Beatrice Fabry, massage Amma"  placeholder='blur'/>
+                    <Image   src={img1}  alt="Beatrice Fabry, massage Amma"  placeholder='blur'/>
                 </div>
             </article>
 

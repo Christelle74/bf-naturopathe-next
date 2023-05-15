@@ -5,10 +5,10 @@ import img1 from '../../../public/assets/Doux hiver.webp'
 
 export default function About() {
     return (
-        <section id="A propos de moi" className="about">
+        <section id="Mon Parcours" className="about">
             
             <article data-aos='flip-right' data-aos-easing="linear" data-aos-duration="1000">
-                <h2>A propos de moi</h2>
+                <h2>Mon Parcours</h2>
                 
                     <p>
                         Très jeune, j’ai été sensibilisée aux médecines alternatives et je sentais que l’alimentation tenait un grand rôle dans notre forme physique.

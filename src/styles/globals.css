@@ -28,8 +28,10 @@
     /* colors */
     --color1:#2e5f6f;
     --color2:#9ac2ba;
+    --color3:#ffe6c7;
+    --color4:#f7d4bc;
     --active-color:#E2C163 ;
-    --background-color1:rgb(45, 45, 45);
+    --background-color1:#2d2d2d;
     --background-color2:#f0e7d6;
 
     /* borders */
@@ -71,7 +73,7 @@ body{
     font-family: 'Bookman', 'sans-serif';
     font-weight: 500;
     letter-spacing: -0.5px;
-    color: var(--color2);
+    color: var(--background-color1);
 }
 
 
@@ -115,13 +117,13 @@ section{
     height: 100%;
     min-height: 500px;
     font-style:normal;
-    scroll-snap-type: y proximity;
+    scroll-margin-top: 7em;
 } 
 
 section h1{
     font-size:var(--fs-40);
     margin:30px auto;
-    color:var(--active-color)
+    color:var(--background-color1)
 }
 
 section h2{
@@ -129,7 +131,7 @@ section h2{
     align-items:  center;
     font-size:var(--fs-26);
     padding: 20px;
-    color:var(--active-color)
+    color:var(--background-color1)
 }
 
 
@@ -139,15 +141,18 @@ section h2{
 article{
     width: 45%;
     min-height: 500px;
-    border:var(--border);
+    border:2px solid var(--color2);
     display:flex;
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
     padding: 20px;
-    background-color: var(--background-color1);
+    background-color: #ffe6c7;
+    /* background-color: var(--background-color2); */
+    background: linear-gradient(45deg, #ffe6c7,#f7d4bc);
     border-radius: var(--border-radius-10);
     position: relative;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
 }
 p{
     margin-bottom: 10px;
@@ -216,7 +221,7 @@ img{
 .menu li a::after{
     content:'';
     position: absolute;
-    background-color:var(--active-color);
+    background-color:var(--color4);
     height:3px;
     width:0;
     left:0;
@@ -224,7 +229,7 @@ img{
     transition:0.3s;
 } 
 .menu a:hover{
-    color: var(--active-color);
+    color: var(--color4);
 }
 .menu a:hover::after, .nav .active a::after{
     width:100%;

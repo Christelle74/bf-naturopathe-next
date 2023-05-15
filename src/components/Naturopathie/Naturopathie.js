@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img1 from '../../../public/assets/Doux hiver.webp'
+import img1 from '../../../public/assets/iStock-466438608dandelion.jpg'
 
 
 export default function Naturopathie() {

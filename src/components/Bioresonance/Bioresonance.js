@@ -17,9 +17,9 @@ export default function Bioresonance() {
                     Ensuite, je fais le point sur votre alimentation, car une bonne santé passe par une bonne façon de s’alimenter. 
                     Ce que j’appelle le réglage alimentaire individualisé.
                     <br /><br />
-                    Enfin, je vous propose des remèdes naturels efficaces, sans effets secondaires (phytothérapie, bourgeons de plantes, homéopathie, aromathérapie et fréquences de biorésonance).
+                    J'utilise en séance un  outil de  biorésonance issu de la médecine quantique, le RAYONEX, qui permet de détecter les déséquilibres et apporte un bienfait immédiat en réharmonisant les dysfonctionnements.
                     <br /><br />
-                    Cet outil de  biorésonance (issu de la médecine quantique), le RAYONEX, permet de détecter les déséquilibres et apporte un bienfait immédiat en réharmonisant les dysfonctionnements.
+                    Enfin, je vous propose des remèdes naturels efficaces, sans effets secondaires (phytothérapie, bourgeons de plantes, homéopathie, aromathérapie et fréquences de biorésonance).
                     <br /><br />
                     A l'aide de la biorésonance, des fréquences sont émises et testées. En utilisant des détecteurs, on teste les déséquilibres organiques que l'on rééquilibre  grâce aux fréquences.
                     <br /><br />
@@ -38,7 +38,7 @@ export default function Bioresonance() {
                     <br /><br />
                     Exemples de nombreuses applications du Rayonex : recherche des allergies alimentaires, métaux lourds, recherche des carences en oligo-éléments et vitamines, rééquilibrage et ré-harmonisation  des déséquilibres trouvés. Soulagement des douleurs tendineuses, arthrosiques..
                     <br /><br />
-                    Une étude allemande récente (2019), en double aveugle sur 54 patients (17 hommes, 37 femmes de 27 à 84 ans), présentant des douleurs du rachis cervicale a montré une amélioration significative des symptômes douloureux sans aucun effet indésirable, après 12 séances de rayonex. 
+                    Une étude allemande récente (2019), en double aveugle sur 54 patients (17 hommes, 37 femmes de 27 à 84 ans), présentant des douleurs du rachis cervical a montré une amélioration significative des symptômes douloureux sans aucun effet indésirable, après 12 séances de rayonex. 
                 </p>
             </article>
         </section>
