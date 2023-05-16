@@ -72,8 +72,9 @@ body{
     background-attachment:fixed;
     font-family: 'Bookman', 'sans-serif';
     font-weight: 500;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.5px; 
     color: var(--background-color1);
+    font-size: var(--fs-18);
 }
 
 
@@ -101,7 +102,7 @@ header{
     align-items: center;
     height: 6.5rem;
     /* background-color: var(--background-color1) ; */
-    background-color: #f7f7fc;
+    background-color:var(--color1);
     border-bottom: 2px solid var(--color2);
     position: fixed; 
     top: 0;
@@ -198,7 +199,7 @@ img{
     align-items: center;
     width: 100%;
     position: fixed;
-    font-size: var(--fs-16);
+    font-size: var(--fs-18);
 }
 
 .menu ul{
@@ -214,7 +215,7 @@ img{
 }
 
 .menu a{
-    color: var(--color1);
+    color: var(--active-color);
     position:relative;
     padding: 0 8px;
     transition: all 0.2s; 
@@ -223,7 +224,7 @@ img{
 .menu li a::after{
     content:'';
     position: absolute;
-    background:linear-gradient(#2e5f6f, #E2C163) ;
+    background:var(--color3);
 
     height:2px;
     width:0;
@@ -232,10 +233,8 @@ img{
     transition:0.3s;
 } 
 .menu a:hover{
-    background: linear-gradient(45deg,#2e5f6f, #E2C163);
-    background-clip: border-box;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    color: var(--color3);
+    
 }
 .menu a:hover::after, .nav .active a::after{
     width:100%;
