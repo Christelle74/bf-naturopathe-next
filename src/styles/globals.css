@@ -30,7 +30,7 @@
     --color2:#9ac2ba;
     --color3:#ffe6c7;
     --color4:#f7d4bc;
-    --active-color:#E2C163 ;
+    --active-color:#E2C163;
     --background-color1:#2d2d2d;
     --background-color2:#f0e7d6;
 
@@ -100,7 +100,9 @@ header{
     justify-content: space-evenly;
     align-items: center;
     height: 6.5rem;
-    background-color: var(--background-color1) ;
+    /* background-color: var(--background-color1) ; */
+    background-color: #f7f7fc;
+    border-bottom: 2px solid var(--color2);
     position: fixed; 
     top: 0;
     width: 100vw;
@@ -212,7 +214,7 @@ img{
 }
 
 .menu a{
-    color: var(--color2);
+    color: var(--color1);
     position:relative;
     padding: 0 8px;
     transition: all 0.2s; 
@@ -221,22 +223,26 @@ img{
 .menu li a::after{
     content:'';
     position: absolute;
-    background-color:var(--color4);
-    height:3px;
+    background:linear-gradient(#2e5f6f, #E2C163) ;
+
+    height:2px;
     width:0;
     left:0;
     bottom:-10px;
     transition:0.3s;
 } 
 .menu a:hover{
-    color: var(--color4);
+    background: linear-gradient(45deg,#2e5f6f, #E2C163);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .menu a:hover::after, .nav .active a::after{
     width:100%;
 }
 
 .nav .active a, .nav .active a::after{
-    color: var(--active-color);
+    color: var(--color4);
 }
 
 

@@ -17,18 +17,18 @@ export default function Bioresonance() {
                     Ensuite, je fais le point sur votre alimentation, car une bonne santé passe par une bonne façon de s’alimenter. 
                     Ce que j’appelle le réglage alimentaire individualisé.
                     <br /><br />
-                    J'utilise en séance un  outil de  biorésonance issu de la médecine quantique, le RAYONEX, qui permet de détecter les déséquilibres et apporte un bienfait immédiat en réharmonisant les dysfonctionnements.
+                    J'utilise en séance un  outil de physique quantique, le RAYONEX, qui permet de détecter les déséquilibres organiques ; des fréquences sont émises et testées grâce à des détecteurs, puis réharmonisées par l'appareil.
                     <br /><br />
+                    Cet outil, développé selon les travaux du Dr Paul Schmidt par la société RAYONEX, est déjà utilisé par les allemands depuis 1982 et fait l'objet de constantes évolutions.
+                    <br /><br />
+                    
                     Enfin, je vous propose des remèdes naturels efficaces, sans effets secondaires (phytothérapie, bourgeons de plantes, homéopathie, aromathérapie et fréquences de biorésonance).
-                    <br /><br />
-                    A l'aide de la biorésonance, des fréquences sont émises et testées. En utilisant des détecteurs, on teste les déséquilibres organiques que l'on rééquilibre  grâce aux fréquences.
-                    <br /><br />
-                    Cet appareil, développé selon les travaux du Dr Paul Schmidt par la société RAYONEX, est déjà utilisé par les allemands depuis 1982 et fait l'objet de constantes évolutions.
-                </p>
+                    </p>
                 <div className={styles.bioresonance}>
                     <Image src={rayonex1}  alt="Beatrice Fabry, naturopathe, bioresonance, rayonex"  sizes='50vw' placeholder='blur'/>
                     <Image src={rayonex2}  alt="Beatrice Fabry, naturopathe, bioresonance, rayonex"  sizes='50vw' placeholder='blur'/>
                 </div>
+                    
             </article>
             <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000" >
                 <div className={styles.bioresonance}>

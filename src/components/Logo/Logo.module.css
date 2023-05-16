@@ -1,6 +1,7 @@
 .logo{
     width: 7rem;
-    height: 6.5rem;
+    height: 7rem;
+    /* background-color: var(--background-color1); */
 }
 
 .logo img{

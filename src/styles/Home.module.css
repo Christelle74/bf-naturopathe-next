@@ -9,7 +9,7 @@
     padding: 10px;
     border-radius: var(--border-radius-10);
     border: var(--border3);
-    background: linear-gradient(90deg, rgba(255,254,223,1) 13%, rgba(255,195,88,1) 45%, rgba(237,127,1,1) 78%);
+    background: linear-gradient(45deg, #f7f7fc 15%, #f0e7d6 30%, #E2C163 70%, rgba(237,127,1,1) 95%);
     color: var(--color1);
     font-size: var(--fs-18);
     cursor: pointer;
