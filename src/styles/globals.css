@@ -73,7 +73,7 @@ body{
     font-family: 'Bookman', 'sans-serif';
     font-weight: 500;
     letter-spacing: -0.5px; 
-    color: var(--background-color1);
+    /* color: var(--background-color1); */
     font-size: var(--fs-18);
 }
 
@@ -101,7 +101,6 @@ header{
     justify-content: space-evenly;
     align-items: center;
     height: 6.5rem;
-    /* background-color: var(--background-color1) ; */
     background-color:var(--color1);
     border-bottom: 2px solid var(--color2);
     position: fixed; 
@@ -310,7 +309,7 @@ img{
         right: -400px; 
         padding: 24px 16px;
         min-height:calc(100vh - 60px);
-        background-color: var(--background-color1);
+        background-color: var(--color1);
         transition: all 0.3s;
         opacity: 0.9;
         
@@ -331,7 +330,7 @@ img{
     }
 
     .hamburger img{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -349,7 +348,7 @@ img{
         padding: 24px 16px;
         font-size: var(--fs-16);
         min-height:calc(100vh - 60px);
-        background-color: var(--background-color1);
+        background-color: var(--color1);
         transition: all 0.3s;
         opacity: 0.95;
     }
@@ -358,7 +357,7 @@ img{
     }
 
     .hamburger img{
-        width: 80%;
+        width: 90%;
     }
 
     img{
@@ -419,6 +418,6 @@ img{
     }
 
     img{
-        width: 150px;
+        width: 200px;
     }
 }

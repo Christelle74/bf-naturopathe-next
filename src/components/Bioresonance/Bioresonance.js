@@ -17,7 +17,7 @@ export default function Bioresonance() {
                     Ensuite, je fais le point sur votre alimentation, car une bonne santé passe par une bonne façon de s’alimenter. 
                     Ce que j’appelle le réglage alimentaire individualisé.
                     <br /><br />
-                    J'utilise en séance un  outil de physique quantique, le RAYONEX, qui permet de détecter les déséquilibres organiques ; des fréquences sont émises et testées grâce à des détecteurs, puis réharmonisées par l'appareil.
+                    J'utilise en séance un  outil de physique quantique, le RAYONEX, qui permet de détecter les déséquilibres organiques ; des fréquences sont émises et testées grâce à des détecteurs, puis les déséquilibres trouvés sont réharmonisés par l'appareil, ce qui incite le corps à s'autoréguler.
                     <br /><br />
                     Cet outil, développé selon les travaux du Dr Paul Schmidt par la société RAYONEX, est déjà utilisé par les allemands depuis 1982 et fait l'objet de constantes évolutions.
                     <br /><br />

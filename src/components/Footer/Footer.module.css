@@ -1,14 +1,14 @@
 .footer{
     height: 12vh;
-    background-color: var(--color2);
+    background-color: var(--color1);
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid var(--color1);
+    border-top: 2px solid var(--color2);
 }
 .footer p, .footer a{
-    color: var(--color1);
+    color: var(--active-color);
 }
 .bf{
     font-size: var(--fs-16);
@@ -20,11 +20,13 @@
 
 .footer .cp a{
     transition: 0.3s ease-in-out; 
+    text-decoration: underline;
+    color:var(--color2)
 }
 .footer a:hover{ 
     font-size: var(--fs-14);
     text-decoration: underline;
-    color: var(--active-color);
+    color: var(--color3);
 }
 
 
