@@ -1,7 +1,7 @@
 import Logo from "../Logo/Logo";
 import { useState } from 'react';
 import Image from 'next/image';
-import hamburger from '../../../public/assets/hamburger.png'
+import hamburger from '../../../public/assets/hamburger.webp'
 import close from '../../../public/assets/close.svg'
 
 

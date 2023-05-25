@@ -1,5 +1,4 @@
-import card1 from '../../../public/assets/seyedeh-hamideh-kazemi-g50hO8_M-Fs-unsplash.jpg'
-import card2 from '../../../public/assets/seyedeh-hamideh-kazemi-g50hO8_M-Fs-unsplash.jpg'
+import card1 from '../../../public/assets/seyedeh-hamideh-kazemi-g50hO8_M-Fs-unsplash.webp'
 import Image from 'next/image.js';
 import { FaStar } from 'react-icons/fa';
 import styles from './Testimonials.module.css'
@@ -25,7 +24,7 @@ export default function Testimonials() {
                     </div>
                 
                     <div className={styles.testimonialCard +" "+ styles.card1}>
-                        <Image src={card2}  alt=""/>
+                        <Image src={card1}  alt=""/>
                         <h3 className={styles.name}>Christelle P.</h3>
                         <p>Béatrice est une nathuropathe très avenante, souriante et à l'écoute de son patient. Elle est très professionnel ! Je la recommande vivement.</p>
                         <p className={styles.date}>Visité en novembre 2022</p>

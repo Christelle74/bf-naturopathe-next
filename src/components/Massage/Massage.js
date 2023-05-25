@@ -1,9 +1,9 @@
 import Image from "next/image"
-import img1 from '../../../public/assets/20230225_164533(0).jpg'
-import img2 from '../../../public/assets/20230225_164727.jpg'
-import img3 from '../../../public/assets/20230225_171914.jpg'
-import img4 from '../../../public/assets/20230225_171946.jpg'
-import img5 from '../../../public/assets/20230225_172043.jpg'
+import img1 from '../../../public/assets/20230225_164533(0).webp'
+import img2 from '../../../public/assets/20230225_164727.webp'
+import img3 from '../../../public/assets/20230225_171914.webp'
+import img4 from '../../../public/assets/20230225_171946.webp'
+import img5 from '../../../public/assets/20230225_172043.webp'
 import styles from './Massage.module.css'
 
 export default function Massage() {

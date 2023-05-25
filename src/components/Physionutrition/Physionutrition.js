@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img1 from '../../../public/assets/20a516517a0dce1493c94fb53554b8fc.jpg'
+import img1 from '../../../public/assets/20a516517a0dce1493c94fb53554b8fc.webp'
 
 
 export default function Physionutrition() {
