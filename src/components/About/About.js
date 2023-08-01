@@ -32,6 +32,7 @@ export default function About() {
                     <li>Diplômée en Physionutrition (IEPP 2017)</li>
                     <li>Certificat de Thérapeute en biorésonance (certification allemande 2018)</li>
                     <li>Diplômée en Massage AMMA sur chaise (shiatsu sur chaise ) (Ecole AZENDAY - Toulouse 2019)</li>
+                    <li>Diplômée en massage assis, massage pour personnes âgées et massage relaxant à l'huile (Ecole Azenday - Toulouse 2019) </li>
                 </ul>
                 
             </article>

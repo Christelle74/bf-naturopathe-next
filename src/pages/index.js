@@ -41,6 +41,7 @@ export default function Home() {
                     <li>Massage Amma</li>
                     <li>Massages pour personnes âgées</li>
                     <li>Massages assis pour entreprises</li>
+                    
                   </ul>
                   
                   <a href = '#Contact' aria-label='contactez-moi'>Contactez-moi</a>

@@ -10,7 +10,7 @@
     color: var(--color4);
     background-color: transparent;
     border-color: transparent;
-    border-radius: var(--border-radius-50);
+    /* border-radius: var(--border-radius-50); */
 }
 
 
