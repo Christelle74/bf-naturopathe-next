@@ -18,10 +18,10 @@ export default function Home() {
     <>
       <Head>
         <title>Beatrice Fabry, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis pour entreprises</title>
-        <meta property="og:title" content="Beatrice Fabry, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis pour entreprises" />
+        <meta property="og:title" content="Beatrice Fabry, Perpignan, Montner, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis en entreprises" />
         
-        <meta name="description" content="Beatrice Fabry, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis pour entreprises, reçoit du lundi au samedi, de 8h à 19h, à Perpignan." key="desc" />
-        <meta property="og:description" content="Beatrice Fabry, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis pour entreprises, reçoit du lundi au samedi, de 8h à 19h, à Perpignan." key="desc" />
+        <meta name="description" content="Beatrice Fabry, Perpignan, Montner, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis en entreprises, reçoit du lundi au samedi, de 8h à 19h, à Perpignan et Montner." key="desc" />
+        <meta property="og:description" content="Beatrice Fabry, naturopathe, massage Amma, physionutritionniste, Thérapeute en biorésonance, Massages pour personnes âgées, Massages assis en entreprises, reçoit du lundi au samedi, de 8h à 19h, à Perpignan et Montner." key="desc" />
         
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
