@@ -29,12 +29,11 @@ export default function Contact() {
                 <h2>Horaires</h2>
                 <br />
                 <p>Sur rendez-vous :</p>
-                <br />
                 <p>Du lundi au samedi</p>
-                
                 <p>De 8h à 19h</p>
                 <br /><br />
                 <h2>Autres infos</h2>
+                <br />
                 <p>Consultations possibles sur Montner</p>
                 <p>English spoken</p>
             </article>
