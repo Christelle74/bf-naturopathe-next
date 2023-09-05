@@ -40,7 +40,7 @@ export default function Home() {
                     <li>Physionutritionniste diplômée IEPP</li>
                     <li>Massage Amma</li>
                     <li>Massages pour personnes âgées</li>
-                    <li>Massages assis pour entreprises</li>
+                    <li>Massages assis en entreprise</li>
                     
                   </ul>
                   

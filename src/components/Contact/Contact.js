@@ -27,11 +27,16 @@ export default function Contact() {
             </article>
             <article data-aos='flip-left' data-aos-easing="linear" data-aos-duration="1000">
                 <h2>Horaires</h2>
+                <br />
                 <p>Sur rendez-vous :</p>
                 <br />
                 <p>Du lundi au samedi</p>
-                <br />
+                
                 <p>De 8h à 19h</p>
+                <br /><br />
+                <h2>Autres infos</h2>
+                <p>Consultations possibles sur Montner</p>
+                <p>English spoken</p>
             </article>
             
         </section>
